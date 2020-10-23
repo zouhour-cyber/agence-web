@@ -1,3 +1,40 @@
+
+
+/*------------navbar------------*/
+.nav-list{
+  height:70px;
+  background-color:black;
+  box-shadow:0px 0px 10px;
+  margin:0;
+  padding:15px 0px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  }
+  .nav-item{
+
+  list-style: none;
+  margin-right: 50px;
+  color:white;
+  font-weight:bold;}
+  .nav-item :hover{
+  color:rgb(155, 229, 207);}
+  
+  
+  .nav-item a{
+  text-decoration: none;
+  color:white;
+  font-weight:bold;}
+  .nav-item:first-child{
+  margin-right: auto;
+  margin-left: 20px;
+  font-size: 30px;
+  }
+
+
+
+
+
 h1{
     font-size: 16px;
     color:rgb(133, 21, 127);
@@ -35,41 +72,11 @@ left:40px;
 }
 
 
-/*------------navbar------------*/
-.nav-list{
-    height:70px;
-    background-color:black;
-    box-shadow:0px 0px 10px;
-    margin:0;
-    padding:15px 0px;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    }
-    .nav-item{
-
-    list-style: none;
-    margin-right: 50px;
-    color:white;
-    font-weight:bold;}
-    .nav-item :hover{
-    color:rgb(155, 229, 207);}
-    
-    
-    .nav-item a{
-    text-decoration: none;
-    color:white;
-    font-weight:bold;}
-    .nav-item:first-child{
-    margin-right: auto;
-    margin-left: 20px;
-    font-size: 30px;
-    }
     
      /*.......social media icon bar........*/
      .icon-bar {
       position: fixed;
-      top: 60%;
+      top: 50%;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
@@ -159,16 +166,16 @@ left:40px;
          height:200px;
       }
         .Nom{
-          padding:10px;
+          padding:5px;
           display: flex;
           justify-content: space-around;
           }
 
-        /*..............footer.............*/
+ /*..........................................footer.......................................*/
 footer{
     height:30vh;
     background-color:rgba(97, 113, 128, 0.933);
-    padding-top: 20px;
+    padding-top: 10px;
     margin-bottom: 0px;
     padding-bottom: 0px;
     text-align:center;
@@ -184,9 +191,6 @@ footer{
 
 /*..............................................Contact..............................................*/
 .section-header{
-  
-    color:rgb(46, 179, 196);
-    font-size: 30px;
     text-align: center; 
     padding-bottom:20px;
   }
@@ -226,7 +230,7 @@ footer{
     font-size: 1.1em;
     background-color: rgb(46, 179, 196);
     color: #fff;
-    margin-left:5vh;
+    margin-left:52vh;
     padding:10px;
     
   
