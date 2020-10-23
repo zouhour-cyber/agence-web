@@ -1,0 +1,269 @@
+h1{
+    font-size: 16px;
+    color:rgb(133, 21, 127);
+   
+}
+p{font-size:18px;}
+body{  font-family:Volkhov;}
+.card-group{
+margin-left:100px;}
+
+.contactbg{
+margin-top: 100px;
+font-style: italic;
+font-size: 30px;
+padding:70px 50px;
+background-image: url(image/back.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.bg{ height:550px;
+width:100%;
+}
+.titre{ 
+position:absolute;
+top:40%;
+left:40px;
+}
+
+.btn-lg{
+  margin-left:20vh;
+  margin-top:40px;
+  width:40vh;
+  
+}
+
+
+/*------------navbar------------*/
+.nav-list{
+    height:70px;
+    background-color:black;
+    box-shadow:0px 0px 10px;
+    margin:0;
+    padding:15px 0px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .nav-item{
+
+    list-style: none;
+    margin-right: 50px;
+    color:white;
+    font-weight:bold;}
+    .nav-item :hover{
+    color:rgb(155, 229, 207);}
+    
+    
+    .nav-item a{
+    text-decoration: none;
+    color:white;
+    font-weight:bold;}
+    .nav-item:first-child{
+    margin-right: auto;
+    margin-left: 20px;
+    font-size: 30px;
+    }
+    
+     /*.......social media icon bar........*/
+     .icon-bar {
+      position: fixed;
+      top: 60%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+    
+    /*........ Style the icon bar links......... */
+    .icon-bar a {
+      display: block;
+      text-align: center;
+      padding: 10px;
+      transition: all 0.3s ease;
+      color: white;
+      font-size: 18px;
+    }
+    
+    /*..... Style  social media icons .... */
+    .icon-bar a:hover {
+      background-color: rgb(15, 3, 10);
+    }
+
+
+    .facebook {
+      background:rgb(15, 29, 226);
+      color: white;
+      border-radius: 10px;
+    }
+    
+    .twitter {
+      background: #55ACEE;
+      color: white;
+      border-radius: 10px;
+
+    }
+    .linkedin {
+      background: #007bb5;
+      color: white;
+      border-radius: 10px;}
+    .youtube {
+        background: #bb0000;
+        color: white;
+        border-radius: 10px;
+      }
+    
+/*...........Newsletter................*/
+    .home-newsletter {
+        
+        padding: 50px 0;
+        background: rgba(190, 139, 192, 0.933);
+        }
+        
+        .home-newsletter .single {
+        max-width: 650px;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        z-index: 2; }
+        .home-newsletter .single h2 {
+        font-size: 20px;
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 40px; }
+        .home-newsletter .single .form-control {
+        height: 50px;
+        background: rgba(255, 255, 255, 0.6);
+        border-color: transparent;
+        border-radius: 20px 0 0 20px; }
+        .home-newsletter .single .form-control:focus {
+        box-shadow: none;
+        border-color: #243c4f; }
+        .home-newsletter .single .btn {
+        min-height: 50px; 
+        border-radius: 0 20px 20px 0;
+        background: #243c4f;
+        color: #fff;
+        }
+
+
+
+        .card
+        {
+        box-shadow: 3px 3px gainsboro;
+        height:50px;
+        }
+        .card:hover{transform: scale(1.05);
+       }
+       .card-img-top{
+         height:200px;
+      }
+        .Nom{
+          padding:10px;
+          display: flex;
+          justify-content: space-around;
+          }
+
+        /*..............footer.............*/
+footer{
+    height:30vh;
+    background-color:rgba(97, 113, 128, 0.933);
+    padding-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align:center;
+   
+  }
+  .icon{
+    display: flex;
+    justify-content: center;
+    padding-bottom:40px;
+  }
+  
+  
+
+/*..............................................Contact..............................................*/
+.section-header{
+  
+    color:rgb(46, 179, 196);
+    font-size: 30px;
+    text-align: center; 
+    padding-bottom:20px;
+  }
+  .section-content{
+    text-align: center;
+    padding-top: 40px;
+  }
+  .contact{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  padding-left:10vh;
+
+}
+
+  
+  .form{
+    padding-top: 50px ;
+    margin-right:40px;
+   
+  }
+  label{
+    font-size: 18px;
+    line-height: 1em;
+    font-weight:bold;
+  }
+  .form-control{
+    width:40px;
+    font-size: 1.3em;
+    color: #080808;
+    border-radius:30%;
+    box-shadow: 2px 2px rgb(136, 170, 233) ;
+  }
+  
+  
+  .btn-info{
+    font-size: 1.1em;
+    background-color: rgb(46, 179, 196);
+    color: #fff;
+    margin-left:5vh;
+    padding:10px;
+    
+  
+  }
+  .border-radius{border-radius: 30px;}
+  .form{margin-right:20vh;}
+  .coordonnées{
+    padding-top:30px;
+    font-size:18px;
+    line-height: 50px;}
+
+  .carousel-caption{
+    position:relative;
+    margin-bottom:60%;
+  }
+  .boutoncontact{
+    position:absolute;
+    top:76vh;
+    left:35vh;
+    padding:10px;
+    width:30vh;
+    background-color:black;
+    border-radius:20px;
+    color:white;
+    font-size:20px
+  }
+  .boutoncontact:hover{
+    transform: scale(1.2);
+  }
+
+  /*-------------expertise-------*/
+  .clients{ 
+   height:300px;
+   width:90%;
+   box-shadow: #9eb3c5 2px 2px;
+  }
+  .clients:hover{
+    transform: scale(1.05);
+  
+  }
