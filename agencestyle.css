@@ -1,71 +1,139 @@
 
-
-/*------------navbar------------*/
-.nav-list{
-  height:70px;
-  background-color:black;
-  box-shadow:0px 0px 10px;
-  margin:0;
-  padding:15px 0px;
-  display:flex;
-  justify-content: space-around;
-  align-items: center;
+/*---------responsive-----------------*/
+@media screen and (max-width:600px ){
+  .boutoncontact{ 
+    display:none;
   }
-  .nav-item{
+  .carousel{
+    display:none;
 
-  list-style: none;
-  margin-right: 50px;
-  color:white;
-  font-weight:bold;}
-  .nav-item :hover{
-  color:rgb(155, 229, 207);}
-  
-  
-  .nav-item a{
-  text-decoration: none;
-  color:white;
-  font-weight:bold;}
-  .nav-item:first-child{
-  margin-right: auto;
-  margin-left: 20px;
-  font-size: 30px;
   }
+  .contactbg{
+    padding:10px;
+    font-size:15px;}
 
+  h1{
+    font-size:10px;
+  }
+  .container{
+    margin-left:40px;
+  }
+.home-newsletter{
+  padding:10px 0;
+}
+}
 
+/*..........style navbar.....*/
+.bg-gradient{
+background-color:black;
+}
+.navbar-nav{
+  color:white;
+  position: relative;
+  margin-left:auto;
+  font-weight:bold;
+  padding-right:20px;
+}
+.nav-link:hover{color:rgb(19, 158, 135) !important;}
+.navbar-brand { 
+  margin-left:20px;
+  font-size:20px;
+  font-weight:bold;
+  
 
-
+}
+.nav-link{
+  color:white;
+}
 
 h1{
-    font-size: 16px;
-    color:rgb(133, 21, 127);
+
+    text-transform: uppercase;
+
+  }
+
+ .rest ,u {
+   color:rgb(216, 50, 128);
+  }
    
+
+p{
+  font-size:18px;
 }
-p{font-size:18px;}
-body{  font-family:Volkhov;}
-.card-group{
-margin-left:100px;}
+
+body{  
+font-family:Volkhov;
+}
+
+
+  /*........................style bouton contact...........................*/
+
+  .boutoncontact{
+    position:absolute;
+    top:78vh;
+    left:35vh;
+    padding:10px;
+    width:30vh;
+    background-color:black;
+    border-radius:10px;
+    color:white;
+    font-size:20px
+  }
+  .boutoncontact:hover{
+    transform: scale(1.05);
+  }
+
+.carousel-caption{
+  position:relative;
+  margin-bottom:60%;
+}
+
+
+/*---------------------------------------------notre équipe---------------------------*/
+.card-title{
+  padding-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.text-card{
+padding-bottom: 10px;
+
+}
+
+.post{
+  padding:0px;
+  margin:0p;
+  font-style: italic;
+  font-weight: bold;
+}
+
 
 .contactbg{
 margin-top: 100px;
 font-style: italic;
-font-size: 30px;
+font-weight:bold;
+font-size: 25px;
 padding:70px 50px;
 background-image: url(image/back.jpg);
 background-repeat: no-repeat;
 background-size: cover;
+color:whitesmoke;
 
 }
-.bg{ height:550px;
+.bg{ 
+height:550px;
 width:100%;
 }
-.titre{ 
+
+
+/*.titre{ 
 position:absolute;
 top:40%;
 left:40px;
-}
+}*/
 
 .btn-lg{
-  margin-left:20vh;
+  margin-left:10px;;
   margin-top:40px;
   width:40vh;
   
@@ -122,8 +190,8 @@ left:40px;
     
 /*...........Newsletter................*/
     .home-newsletter {
-        
-        padding: 50px 0;
+        margin-top:30vh;
+        padding: 30px 0;
         background: rgba(190, 139, 192, 0.933);
         }
         
@@ -154,6 +222,7 @@ left:40px;
         }
 
 
+/*--------------------------------------style carte----------------------------------------*/
 
         .card
         {
@@ -165,103 +234,89 @@ left:40px;
        .card-img-top{
          height:200px;
       }
-        .Nom{
-          padding:5px;
-          display: flex;
-          justify-content: space-around;
-          }
+      
 
  /*..........................................footer.......................................*/
 footer{
-    height:30vh;
-    background-color:rgba(97, 113, 128, 0.933);
-    padding-top: 10px;
+
+    padding-top:5px;
+    background-color:rgba(208, 214, 219, 0.933);
     margin-bottom: 0px;
     padding-bottom: 0px;
     text-align:center;
+    
    
   }
   .icon{
     display: flex;
-    justify-content: center;
-    padding-bottom:40px;
+    justify-content:flex-end;
+    margin-right:30px;
+    margin-top:10px;
+  }
+  i:hover{
+    transform: scale(1.2)
   }
   
   
 
 /*..............................................Contact..............................................*/
+.section-content{
+  text-align: center;
+  padding-top: 40px;
+}
 .section-header{
     text-align: center; 
-    padding-bottom:20px;
+    padding-bottom:10px;
   }
-  .section-content{
-    text-align: center;
-    padding-top: 40px;
-  }
+
   .contact{
   display:flex;
   flex-direction:row;
   justify-content:space-between;
-  padding-left:10vh;
-
+  margin-left:5vh;
 }
+.map{
+  display: flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+.coordonnées{
+
+  line-height:30px;
+  font-size:17px;
+}
+  
+  /*----------------------  style du formuaire  ----------------------------*/
+
+  .form{
+    padding-top: 60px ;
+ }
 
   
-  .form{
-    padding-top: 50px ;
-    margin-right:40px;
-   
-  }
-  label{
-    font-size: 18px;
-    line-height: 1em;
-    font-weight:bold;
-  }
   .form-control{
-    width:40px;
+    width:10px;
     font-size: 1.3em;
     color: #080808;
     border-radius:30%;
     box-shadow: 2px 2px rgb(136, 170, 233) ;
+    
   }
   
-  
+  /*----------------------  style bouton envoyer   ----------------------------*/
   .btn-info{
     font-size: 1.1em;
     background-color: rgb(46, 179, 196);
     color: #fff;
-    margin-left:52vh;
+    margin-left:59vh;
     padding:10px;
-    
+
+  }
+
+  /*----------------------------------------------------expertise------------------------------------------*/
   
-  }
-  .border-radius{border-radius: 30px;}
-  .form{margin-right:20vh;}
-  .coordonnées{
-    padding-top:30px;
-    font-size:18px;
-    line-height: 50px;}
+  /*--------------------------------------------style image clients ---------------------------------------*/
 
-  .carousel-caption{
-    position:relative;
-    margin-bottom:60%;
-  }
-  .boutoncontact{
-    position:absolute;
-    top:76vh;
-    left:35vh;
-    padding:10px;
-    width:30vh;
-    background-color:black;
-    border-radius:20px;
-    color:white;
-    font-size:20px
-  }
-  .boutoncontact:hover{
-    transform: scale(1.2);
-  }
 
-  /*-------------expertise-------*/
   .clients{ 
    height:300px;
    width:90%;
